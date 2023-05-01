@@ -100,9 +100,11 @@ int main()
 
 
 
-
-//    cout << harmonischeReiheRec(6) << endl;
-//    cout << harmonischeReiheIter(6) << endl;
+    cout << "Harmonische Reihe Wert zu berechnen? " << endl << "\t";
+    int input;
+    cin >> input;
+    cout << harmonischeReiheRec(input) << endl;
+    cout << harmonischeReiheIter(input) << endl;
 
 
 
